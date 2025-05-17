@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hites | Contact</title>
+    <link href="output.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" defer></script>
+    <style>
+      #map {
+        height: 400px;
+        width: 100%;
+        border-radius: 0.5rem;
+      }
+    </style>
+  </head>
+  <body class="bg-gray-100 text-gray-800 font-sans min-h-screen flex flex-col">
+
+    <!-- Header -->
+    <!-- Header -->
+    <header class="bg-gradient-to-r from-gray-800 to-gray-600 text-white px-6 py-4 flex items-center justify-between">
+      <a href="index.html">
+        <img src="../assets/hites_logo.png" alt="Hites Logo" class="h-20 max-h-20" />
+      </a>
+      
+  
+      <nav class="relative z-50">
+        <ul class="flex space-x-8 text-lg font-medium items-center">
+          <!-- Projects Dropdown -->
+          <li class="relative group">
+              <button class="hover:underline">Projects</button>
+              <div class="absolute top-full left-0 z-50 pt-2">
+                <ul class="hidden group-hover:block bg-gradient-to-r from-gray-800 to-gray-600 border border-gray-500 rounded-md shadow-md text-white min-w-[180px] text-base">
+                  <li><a href="energy.html" class="block px-4 py-2 hover:bg-gray-700">Energy</a></li>
+                  <li><a href="medical.html" class="block px-4 py-2 hover:bg-gray-700">Medical</a></li>
+                  <li><a href="ai_embedded.html" class="block px-4 py-2 hover:bg-gray-700">AI & Embedded</a></li>
+                </ul>
+              </div>
+            </li>
+            
+  
+          <!-- References -->
+          <li><a href="references.html" class="hover:underline">References</a></li>
+  
+          <!-- About Us -->
+          <li><a href="about.html" class="hover:underline">About Us</a></li>
+  
+          <!-- Contact -->
+          <li><a href="contact.html" class="hover:underline">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+
+    <!-- Main Section -->
+    <main class="flex-grow px-6 py-16">
+      <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-start">
+        <!-- Contact Info Left -->
+        <div class="bg-white shadow-md rounded-lg p-6 space-y-4 text-lg">
+          <h1 class="text-3xl font-bold mb-4">Contact Information</h1>
+        
+          <!-- Email -->
+          <div class="flex items-center space-x-2">
+            <img src="../assets/email.png" alt="Email" class="h-6 w-6" />
+            <span>info@hites.com.tr</span>
+          </div>
+        
+          <!-- LinkedIn -->
+          <div class="flex items-center space-x-2">
+            <img src="../assets/linkedin.webp" alt="LinkedIn" class="h-6 w-6" />
+            <a href="https://www.linkedin.com/company/hi%CC%87tes-arge/" 
+               target="_blank" 
+               class="text-blue-600 underline">
+               LinkedIn
+            </a>
+          </div>
+          
+          <!-- Phone -->
+          <p><strong>Phone:</strong> 0(232) 683 24 44</p>
+        
+          <!-- Address (moved to bottom) -->
+          <div class="pt-2">
+            <strong>Address:</strong><br>
+            Halkapınar Mah. Megapol Çarşı Kule 1203/11 Sk.<br>
+            No:5-7 Daire:96 Konak / İzmir
+          </div>
+        
+          <!-- Google Maps Button -->
+          <div class="pt-2">
+            <a href="https://www.google.com/maps/place/Megapol+%C3%87ar%C5%9F%C4%B1+Kule,+1203%2F11.+Sk.+No%3A5-7,+35230+Konak%2F%C4%B0zmir" 
+               target="_blank" 
+               class="inline-block mt-2 px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition">
+              Google Maps'te Aç
+            </a>
+          </div>
+        </div>
+        
+
+        <!-- Map Right -->
+        <div id="map" class="h-96 w-full relative z-0 rounded-lg shadow-md"></div>
+
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gradient-to-r from-gray-800 to-gray-600 text-center py-4 text-sm text-white">
+      &copy; 2025 Hites Ar-Ge. All rights reserved.
+    </footer>
+
+    <!-- Leaflet Script -->
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const map = L.map("map").setView([38.42978873705902, 27.162222081285137], 16);
+        L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+          attribution: '&copy; <a href="https://openstreetmap.org">OpenStreetMap</a> contributors'
+        }).addTo(map);
+        L.marker([38.42978873705902, 27.162222081285137]).addTo(map).bindPopup("Hites Ar-Ge").openPopup();
+      });
+    </script>
+  </body>
+</html>
