@@ -1,0 +1,23 @@
+{
+    "en": {
+      "aiTitle": "Data Analysis",
+      "aiContent": "When properly analyzed, data becomes an incredibly valuable resource. We develop data analytics solutions that help make strategic decisions by interpreting large datasets for energy, medical, and industrial applications. From sensor data to clinical records, from user interface interactions to device performance logs, we process data from diverse sources to enable predictive analysis, anomaly detection, and performance optimization. With our decision support systems, our clients can streamline their operations, reduce costs, and improve quality."
+    },
+    "tr": {
+      "aiTitle": "Veri Analizi",
+      "aiContent": "Doğru analiz edildiğinde veri son derece değerli bir kaynağa dönüşür. Enerji, medikal ve endüstriyel uygulamalar için büyük veri kümelerini yorumlayarak stratejik kararlar almayı kolaylaştıran veri analitiği çözümleri geliştiriyoruz. Sensör verilerinden klinik kayıtlara, kullanıcı arayüzü etkileşimlerinden cihaz performans günlüklerine kadar çeşitli kaynaklardan gelen verileri işleyerek öngörüsel analiz, anomali tespiti ve performans optimizasyonu sağlıyoruz. Karar destek sistemlerimiz sayesinde müşterilerimizin operasyonlarını kolaylaştırıyor, maliyetleri düşürüyor ve kaliteyi artırıyoruz."
+    },
+    "de": {
+      "aiTitle": "Datenanalyse",
+      "aiContent": "Richtig analysiert werden Daten zu einer unglaublich wertvollen Ressource. Wir entwickeln Datenanalyselösungen, die strategische Entscheidungen erleichtern, indem sie große Datensätze für Energie-, Medizin- und Industrieanwendungen interpretieren. Von Sensordaten bis zu klinischen Aufzeichnungen, von Benutzeroberflächeninteraktionen bis zu Geräteleistungsprotokollen verarbeiten wir Daten aus verschiedenen Quellen, um prädiktive Analysen, Anomalieerkennung und Leistungsoptimierung zu ermöglichen. Mit unseren Entscheidungsunterstützungssystemen können unsere Kunden ihre Abläufe optimieren, Kosten senken und die Qualität verbessern."
+    },
+    "es": {
+      "aiTitle": "Análisis de Datos",
+      "aiContent": "Cuando se analizan correctamente, los datos se convierten en un recurso increíblemente valioso. Desarrollamos soluciones de análisis de datos que ayudan a tomar decisiones estratégicas interpretando grandes conjuntos de datos para aplicaciones energéticas, médicas e industriales. Desde datos de sensores hasta registros clínicos, desde interacciones con la interfaz de usuario hasta registros de rendimiento de dispositivos, procesamos datos de diversas fuentes para permitir el análisis predictivo, la detección de anomalías y la optimización del rendimiento. Con nuestros sistemas de soporte de decisiones, nuestros clientes pueden optimizar sus operaciones, reducir costos y mejorar la calidad."
+    },
+    "it": {
+      "aiTitle": "Analisi dei Dati",
+      "aiContent": "Quando analizzati correttamente, i dati diventano una risorsa estremamente preziosa. Sviluppiamo soluzioni di analisi dei dati che aiutano a prendere decisioni strategiche interpretando grandi insiemi di dati per applicazioni energetiche, mediche e industriali. Dai dati dei sensori ai registri clinici, dalle interazioni con l'interfaccia utente ai log delle prestazioni dei dispositivi, elaboriamo dati da fonti diverse per abilitare l'analisi predittiva, il rilevamento delle anomalie e l'ottimizzazione delle prestazioni. Con i nostri sistemi di supporto alle decisioni, i nostri clienti possono semplificare le operazioni, ridurre i costi e migliorare la qualità."
+    }
+  }
+  

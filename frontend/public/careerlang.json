@@ -1,0 +1,64 @@
+{
+  "en": {
+    "joinTeam": "Join Our Team",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "email": "Email",
+    "uploadCV": "Upload your CV",
+    "drag": "Upload your CV by dragging here",
+    "orChoose": "or choose a file below",
+    "chooseFile": "Choose a File",
+    "submit": "Submit Application",
+    "successMessage": "Your application has been submitted successfully ✅"
+  },
+  "tr": {
+    "joinTeam": "Ekibimize Katılın",
+    "firstName": "Ad",
+    "lastName": "Soyad",
+    "email": "E-posta",
+    "uploadCV": "CV Yükle",
+    "drag": "CV'nizi buraya sürükleyin",
+    "orChoose": "ya da aşağıdan bir dosya seçin",
+    "chooseFile": "Dosya Seç",
+    "submit": "Başvuruyu Gönder",
+    "successMessage": "Başvurunuz başarıyla iletildi ✅"
+  },
+  "de": {
+    "joinTeam": "Treten Sie unserem Team bei",
+    "firstName": "Vorname",
+    "lastName": "Nachname",
+    "email": "E-Mail",
+    "uploadCV": "Lebenslauf hochladen",
+    "drag": "Ziehen Sie Ihren Lebenslauf hierher",
+    "orChoose": "oder wählen Sie unten eine Datei",
+    "chooseFile": "Datei auswählen",
+    "submit": "Bewerbung absenden",
+    "successMessage": "Ihre Bewerbung wurde erfolgreich übermittelt ✅"
+  },
+  "es": {
+    "joinTeam": "Únete a nuestro equipo",
+    "firstName": "Nombre",
+    "lastName": "Apellido",
+    "email": "Correo electrónico",
+    "uploadCV": "Sube tu CV",
+    "drag": "Arrastra tu CV aquí",
+    "orChoose": "o elige un archivo abajo",
+    "chooseFile": "Seleccionar archivo",
+    "submit": "Enviar solicitud",
+    "successMessage": "Tu solicitud ha sido enviada con éxito ✅"
+  },
+  "it": {
+    "joinTeam": "Unisciti al nostro team",
+    "firstName": "Nome",
+    "lastName": "Cognome",
+    "email": "Email",
+    "uploadCV": "Carica il tuo CV",
+    "drag": "Trascina qui il tuo CV",
+    "orChoose": "oppure scegli un file sotto",
+    "chooseFile": "Scegli un file",
+    "submit": "Invia candidatura",
+    "successMessage": "La tua candidatura è stata inviata con successo ✅"
+  }
+}
+
+

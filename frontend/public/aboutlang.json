@@ -1,0 +1,43 @@
+{
+    "en": {
+      "aboutTitle": "About Us",
+      "aboutContent": "As Hites, we were founded in 2013. With a rich engineering team consisting of Bioengineer, Biomedical, Mechatronics, Electrical-Electronics engineers, we provide R&D services in the fields of energy, medical, and artificial intelligence. We have the ability to design in mechanical, electronics, and software fields.\n\nHites is progressing towards becoming a strong R&D company. We aim to continuously enhance lives with the most advanced technology together with our team members. Human health, sustainability, innovation, reliability, and quality are our priorities.",
+      "visionTitle": "Our Vision",
+      "visionContent": "To be a reliable and high-quality R&D company that constantly improves people's lives with advanced technologies that can be used by people, focusing on sustainability and innovation.",
+      "missionTitle": "Our Mission",
+      "missionContent": "By producing advanced solutions through our interdisciplinary engineering knowledge in the fields of energy, medical and artificial intelligence, and through mechanical, electronic and software design."
+    },
+    "tr": {
+      "aboutTitle": "Hakkımızda",
+      "aboutContent": "Hites olarak 2013 yılında kuruldu. Biyomühendis, Biyomedikal, Mekatronik, Elektrik-Elektronik mühendislerinden oluşan zengin mühendislik ekibimizle enerji, medikal ve yapay zeka alanlarında Ar-Ge hizmeti sunmaktayız. Mekanik, elektronik ve yazılım tasarımı alanlarında yetkinliğe sahibiz.\n\nHites, güçlü bir Ar-Ge firması olma yolunda ilerlemektedir. Ekibimizle birlikte en ileri teknolojilerle hayatları sürekli geliştirmeyi hedefliyoruz. İnsan sağlığı, sürdürülebilirlik, yenilikçilik, güvenilirlik ve kalite önceliklerimizdir.",
+      "visionTitle": "Vizyonumuz",
+      "visionContent": "İnsanların hayatını sürekli olarak geliştiren, sürdürülebilirlik ve yenilikçilik odaklı, ileri teknolojilerin kullanılmasını sağlayan güvenilir ve kaliteli bir Ar-Ge firması olmak.",
+      "missionTitle": "Misyonumuz",
+      "missionContent": "Enerji, medikal ve yapay zeka alanlarında, disiplinler arası mühendislik bilgimizi kullanarak mekanik, elektronik ve yazılım tasarımıyla ileri çözümler üretmek."
+    },
+    "de": {
+      "aboutTitle": "Über uns",
+      "aboutContent": "Hites wurde 2013 gegründet. Mit einem vielfältigen Ingenieursteam aus Bioingenieuren, Biomedizinern, Mechatronikern und Elektroingenieuren bieten wir F&E-Dienstleistungen in den Bereichen Energie, Medizin und künstliche Intelligenz an.\n\nHites entwickelt sich zu einem starken F&E-Unternehmen. Unser Ziel ist es, das Leben der Menschen durch fortschrittlichste Technologien kontinuierlich zu verbessern. Gesundheit, Nachhaltigkeit, Innovation, Zuverlässigkeit und Qualität stehen bei uns an erster Stelle.",
+      "visionTitle": "Unsere Vision",
+      "visionContent": "Ein zuverlässiges und qualitativ hochwertiges F&E-Unternehmen zu sein, das das Leben der Menschen mit fortschrittlichen Technologien kontinuierlich verbessert.",
+      "missionTitle": "Unsere Mission",
+      "missionContent": "Durch interdisziplinäres technisches Wissen in den Bereichen Energie, Medizin und KI fortschrittliche Lösungen mit mechanischem, elektronischem und Softwaredesign entwickeln."
+    },
+    "es": {
+      "aboutTitle": "Sobre Nosotros",
+      "aboutContent": "Hites fue fundada en 2013. Con un equipo diverso de ingenieros, ofrecemos servicios de I+D en energía, medicina e inteligencia artificial. Diseñamos en campos mecánicos, electrónicos y de software.\n\nHites avanza hacia convertirse en una empresa fuerte de I+D. Nuestro objetivo es mejorar continuamente la vida de las personas con la tecnología más avanzada. La salud humana, la sostenibilidad, la innovación, la confiabilidad y la calidad son nuestras prioridades.",
+      "visionTitle": "Nuestra Visión",
+      "visionContent": "Ser una empresa de I+D confiable y de alta calidad que mejora constantemente la vida de las personas con tecnologías avanzadas, centrándose en la sostenibilidad y la innovación.",
+      "missionTitle": "Nuestra Misión",
+      "missionContent": "Producir soluciones avanzadas a través del conocimiento interdisciplinario en energía, medicina e inteligencia artificial mediante diseño mecánico, electrónico y de software."
+    },
+    "it": {
+      "aboutTitle": "Chi Siamo",
+      "aboutContent": "Hites è stata fondata nel 2013. Con un team di ingegneri esperti in biomedica, meccatronica, elettronica e altro, offriamo servizi R&D in energia, medicina e intelligenza artificiale.\n\nHites sta diventando una forte azienda R&D. Il nostro obiettivo è migliorare continuamente la vita con la tecnologia più avanzata. La salute, la sostenibilità, l'innovazione, l'affidabilità e la qualità sono le nostre priorità.",
+      "visionTitle": "La Nostra Visione",
+      "visionContent": "Essere un'azienda R&D affidabile e di alta qualità che migliora costantemente la vita delle persone con tecnologie avanzate, focalizzandosi sulla sostenibilità e innovazione.",
+      "missionTitle": "La Nostra Missione",
+      "missionContent": "Fornire soluzioni avanzate attraverso la nostra conoscenza ingegneristica interdisciplinare nei campi dell'energia, medicina e intelligenza artificiale con design meccanico, elettronico e software."
+    }
+  }
+  

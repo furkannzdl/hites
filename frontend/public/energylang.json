@@ -1,0 +1,23 @@
+{
+    "en": {
+      "energyTitle": "Energy",
+      "energyContent": "To contribute added value to the energy sector, we develop embedded system applications that enhance efficiency and offer sustainable solutions. We provide R&D services in areas such as IoT-enabled sensor networks and energy management software. Our goal is to develop smart technologies that enable more efficient use of energy resources while reducing the carbon footprint."
+    },
+    "tr": {
+      "energyTitle": "Enerji",
+      "energyContent": "Enerji sektörüne katma değer sağlamak amacıyla, verimliliği artıran ve sürdürülebilir çözümler sunan gömülü sistem uygulamaları geliştiriyoruz. IoT tabanlı sensör ağları ve enerji yönetim yazılımları gibi alanlarda Ar-Ge hizmeti sunmaktayız. Amacımız, enerji kaynaklarının daha verimli kullanılmasını sağlayan ve karbon ayak izini azaltan akıllı teknolojiler geliştirmektir."
+    },
+    "de": {
+      "energyTitle": "Energie",
+      "energyContent": "Um einen Mehrwert für den Energiesektor zu schaffen, entwickeln wir eingebettete Systemanwendungen, die die Effizienz steigern und nachhaltige Lösungen bieten. Wir bieten F&E-Dienstleistungen in Bereichen wie IoT-fähige Sensornetzwerke und Energiemanagementsoftware. Unser Ziel ist es, intelligente Technologien zu entwickeln, die eine effizientere Nutzung von Energiequellen ermöglichen und gleichzeitig den CO₂-Fußabdruck verringern."
+    },
+    "es": {
+      "energyTitle": "Energía",
+      "energyContent": "Para aportar valor al sector energético, desarrollamos aplicaciones de sistemas embebidos que mejoran la eficiencia y ofrecen soluciones sostenibles. Ofrecemos servicios de I+D en áreas como redes de sensores habilitadas para IoT y software de gestión energética. Nuestro objetivo es desarrollar tecnologías inteligentes que permitan un uso más eficiente de los recursos energéticos mientras se reduce la huella de carbono."
+    },
+    "it": {
+      "energyTitle": "Energia",
+      "energyContent": "Per contribuire con valore aggiunto al settore energetico, sviluppiamo applicazioni embedded che migliorano l'efficienza e offrono soluzioni sostenibili. Forniamo servizi di R&S in aree come reti di sensori abilitati all'IoT e software per la gestione dell'energia. Il nostro obiettivo è sviluppare tecnologie intelligenti che consentano un uso più efficiente delle risorse energetiche riducendo l'impronta di carbonio."
+    }
+  }
+  

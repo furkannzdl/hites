@@ -1,0 +1,58 @@
+{
+    "en": {
+      "navHome": "Home",
+      "navAbout": "About Us",
+      "navProjects": "Projects",
+      "navReferences": "References",
+      "navContact": "Contact",
+      "navCareer": "Career",
+      "navEnergy": "Energy",
+      "navMedical": "Medical",
+      "navAI": "Data Analysis"
+    },
+    "tr": {
+      "navHome": "Anasayfa",
+      "navAbout": "Hakkımızda",
+      "navProjects": "Projeler",
+      "navReferences": "Referanslar",
+      "navContact": "İletişim",
+      "navCareer": "Kariyer",
+      "navEnergy": "Enerji",
+      "navMedical": "Medikal",
+      "navAI": "Veri Analitiği"
+    },
+    "de": {
+      "navHome": "Startseite",
+      "navAbout": "Über uns",
+      "navProjects": "Projekte",
+      "navReferences": "Referenzen",
+      "navContact": "Kontakt",
+      "navCareer": "Karriere",
+      "navEnergy": "Energie",
+      "navMedical": "Medizinisch",
+      "navAI": "Datenanalyse"
+    },
+    "es": {
+      "navHome": "Inicio",
+      "navAbout": "Sobre Nosotros",
+      "navProjects": "Proyectos",
+      "navReferences": "Referencias",
+      "navContact": "Contacto",
+      "navCareer": "Carrera",
+      "navEnergy": "Energía",
+      "navMedical": "Médico",
+      "navAI": "Análisis de Datos"
+    },
+    "it": {
+      "navHome": "Home",
+      "navAbout": "Chi Siamo",
+      "navProjects": "Progetti",
+      "navReferences": "Referenze",
+      "navContact": "Contatto",
+      "navCareer": "Carriera",
+      "navEnergy": "Energia",
+      "navMedical": "Medico",
+      "navAI": "Analisi Dati"
+    }
+  }
+  

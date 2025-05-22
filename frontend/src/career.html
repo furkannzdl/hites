@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Career | Hites</title>
+  <link href="output.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body class="bg-gray-100 text-gray-800 font-sans min-h-screen flex flex-col">
+
+  <!-- Header -->
+  <header
+    class="bg-gradient-to-r from-gray-800 to-gray-600 text-white px-6 py-4 flex items-center justify-between md:justify-start relative z-50">
+    <!-- Logo (hem mobil hem desktop) -->
+    <a href="index.html" class="z-50">
+      <img src="../assets/hites_logo.png" alt="Hites Logo" class="h-12 md:h-20" />
+    </a>
+
+    <!-- Hamburger menu (mobilde görünür) -->
+    <button id="menuToggle" class="md:hidden focus:outline-none z-50">
+      <svg class="w-8 h-8" fill="none" stroke="white" stroke-width="2" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+      </svg>
+    </button>
+
+    <!-- Masaüstü navigation -->
+    <nav class="hidden md:flex space-x-8 text-lg font-medium ml-auto items-center">
+      <a href="index.html" class="hover:underline" data-header-key="navHome">Home</a>
+      <a href="about.html" class="hover:underline" data-header-key="navAbout">About Us</a>
+      <div class="relative group">
+        <button class="hover:underline" data-header-key="navProjects">Projects</button>
+        <div class="absolute top-full left-0 z-50 pt-2 hidden group-hover:block">
+          <ul class="bg-gradient-to-r from-gray-800 to-gray-600 border border-gray-500 rounded-md shadow-md text-white min-w-[180px] text-base">
+            <li><a href="energy.html" class="block px-4 py-2 hover:bg-gray-700" data-header-key="navEnergy">Energy</a></li>
+            <li><a href="medical.html" class="block px-4 py-2 hover:bg-gray-700" data-header-key="navMedical">Medical</a></li>
+            <li><a href="ai_embedded.html" class="block px-4 py-2 hover:bg-gray-700" data-header-key="navAI">Data Analysis</a></li>
+          </ul>
+        </div>
+      </div>
+      <a href="references.html" class="hover:underline" data-header-key="navReferences">References</a>
+      <a href="contact.html" class="hover:underline" data-header-key="navContact">Contact</a>
+      <a href="career.html" class="hover:underline" data-header-key="navCareer">Career</a>
+      
+      <div class="ml-auto relative">
+        <select id="languageSelector" class="languageSelector bg-gray-700 text-white px-3 py-2 rounded">
+          <option value="tr">🇹🇷 Türkçe</option>
+          <option value="en">🇬🇧 English</option>
+          <option value="de">🇩🇪 Deutsch</option>
+          <option value="es">🇪🇸 Español</option>
+          <option value="it">🇮🇹 Italiano</option>
+        </select>
+      </div>
+    </nav>
+  </header>
+  <!-- Mobile Sidebar -->
+
+  <div id="mobileSidebar"
+    class="fixed top-0 left-0 h-full w-64 bg-gray-800 text-white transform -translate-x-full transition-transform duration-300 ease-in-out z-40 md:hidden">
+
+    <!-- Logo -->
+    <div class="p-4 border-b border-gray-600">
+      <a href="index.html">
+        <img src="../assets/hites_logo.png" alt="Hites Logo" class="h-12 mx-auto" />
+      </a>
+    </div>
+
+    <!-- Menü -->
+    <ul class="p-6 space-y-4 text-lg font-medium">
+
+      <li><a href="index.html" class="block hover:underline">Home</a></li>
+      <li><a href="about.html" class="block hover:underline" data-header-key="navAbout">About Us</a></li>
+
+      <!-- Projects (açılır menü) -->
+      <li>
+        <button id="toggleProjects" class="flex justify-between items-center w-full hover:underline" data-header-key="navProjects">
+          Projects
+          <svg id="projectsArrow" class="w-4 h-4 ml-2 transform transition-transform" fill="none" stroke="white"
+            stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+          </svg>
+        </button>
+        <ul id="projectsSubmenu" class="pl-4 mt-2 space-y-2 hidden">
+          <li><a href="energy.html" class="block hover:underline" data-header-key="navEnergy">Energy</a></li>
+          <li><a href="medical.html" class="block hover:underline" data-header-key="navMedical">Medical</a></li>
+          <li><a href="ai_embedded.html" class="block hover:underline" data-header-key="navAI">Data Analysis</a></li>
+        </ul>
+      </li>
+      
+      <li><a href="references.html" class="block hover:underline" data-header-key="navReferences">References</a></li>
+      <li><a href="contact.html" class="block hover:underline" data-header-key="navContact">Contact</a></li>
+      <li><a href="career.html" class="block hover:underline" data-header-key="navCareer">Career</a></li>
+      
+      <div class="ml-auto relative">
+        <select id="languageSelector" class="languageSelector bg-gray-700 text-white px-3 py-2 rounded">
+          <option value="tr">🇹🇷 Türkçe</option>
+          <option value="en">🇬🇧 English</option>
+          <option value="de">🇩🇪 Deutsch</option>
+          <option value="es">🇪🇸 Español</option>
+          <option value="it">🇮🇹 Italiano</option>
+        </select>
+      </div>
+    </ul>
+  </div>
+
+  <main class="flex-grow px-6 py-16 max-w-2xl mx-auto">
+
+
+    <h1 data-key="joinTeam" class="text-3xl font-bold mb-8 text-center" style="font-family: 'Raleway', sans-serif;">
+      Join Our Team
+    </h1>
+
+    <form id="careerForm" enctype="multipart/form-data" class="space-y-6 bg-white p-8 rounded-xl shadow-lg">
+
+      <!-- First Name -->
+      <div>
+        <label class="block font-medium mb-2" data-key="firstName">First Name</label>
+        <input type="text" name="first_name" required class="w-full border border-gray-300 p-3 rounded-md" />
+      </div>
+
+      <!-- Last Name -->
+      <div>
+        <label class="block font-medium mb-2" data-key="lastName">Last Name</label>
+        <input type="text" name="last_name" required class="w-full border border-gray-300 p-3 rounded-md" />
+      </div>
+
+      <!-- Email -->
+      <div>
+        <label class="block font-medium mb-2" data-key="email">Email</label>
+        <input type="email" name="email" required class="w-full border border-gray-300 p-3 rounded-md" />
+      </div>
+
+      <!-- CV Upload -->
+      <div>
+        <label class="block font-medium mb-2" data-key="uploadCV">Upload your CV</label>
+        <div id="dropzone"
+          class="flex flex-col items-center justify-center border-2 border-dashed border-gray-400 rounded-md px-4 py-8 text-center text-gray-500 cursor-pointer hover:border-red-500 transition">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 mb-2 text-gray-400" fill="none" viewBox="0 0 24 24"
+            stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4" />
+          </svg>
+          <p data-key="drag">Upload your CV by dragging here</p>
+          <span class="text-sm text-gray-400 mt-1" data-key="orChoose">or choose a file below</span>
+        </div>
+
+        <input type="file" name="attachment" id="fileInput" accept=".pdf,.doc,.docx" required class="hidden" />
+
+        <div class="mt-3 text-center">
+          <p id="fileName" class="text-sm text-red-500 text-center mt-2 transition-colors duration-300"></p>
+          <button type="button" onclick="document.getElementById('fileInput').click()"
+            class="bg-gray-200 text-gray-700 px-4 py-2 rounded hover:bg-gray-300 transition" data-key="chooseFile">
+            Choose a File
+          </button>
+        </div>
+      </div>
+
+      <!-- Submit Button -->
+      <div class="text-center">
+        <button type="submit" class="bg-red-600 text-white px-6 py-3 rounded-md hover:bg-red-700 transition"
+          data-key="submit">
+          Submit Application
+        </button>
+      </div>
+      
+    </form>
+
+    <!-- Success Message -->
+    <p id="formMessage" class="text-green-600 font-semibold mt-4 hidden text-center" data-key="successMessage">
+      Başvurunuz başarıyla iletildi ✅
+    </p>
+  </main>
+
+
+
+  <!-- Footer -->
+  <footer class="bg-gradient-to-r from-gray-800 to-gray-600 text-center py-4 text-sm text-white">
+    <span data-footer-key="footerText">&copy; 2025 Hites Ar-Ge. All rights reserved.</span>
+  </footer>
+  
+
+  <script>
+    const form = document.getElementById('careerForm');
+    const message = document.getElementById('formMessage');
+    const dropzone = document.getElementById('dropzone');
+    const fileInput = document.getElementById('fileInput');
+    const fileNameDisplay = document.getElementById('fileName');
+
+    // Submit form with JS (prevent redirect)
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+
+      const formData = new FormData(form);
+      try {
+        const res = await fetch('http://localhost:3000/api/career', {
+          method: 'POST',
+          body: formData
+        });
+
+        if (res.ok) {
+          message.classList.remove('hidden');
+          form.reset();
+          fileNameDisplay.textContent = ""; // dosya adı da temizlensin
+        } else {
+          alert("Gönderim sırasında hata oluştu.");
+        }
+      } catch (err) {
+        alert("Sunucuya ulaşılamadı.");
+      }
+    });
+
+    // Dropzone tıklanınca dosya seç
+    dropzone.addEventListener('click', () => fileInput.click());
+
+    // Sürükleme efekti
+    dropzone.addEventListener('dragover', (e) => {
+      e.preventDefault();
+      dropzone.classList.add('border-red-500', 'bg-gray-50');
+    });
+
+    dropzone.addEventListener('dragleave', () => {
+      dropzone.classList.remove('border-red-500', 'bg-gray-50');
+    });
+
+    // Dosya bırakıldığında
+    dropzone.addEventListener('drop', (e) => {
+      e.preventDefault();
+      dropzone.classList.remove('border-red-500', 'bg-gray-50');
+      const files = e.dataTransfer.files;
+      if (files.length > 0) {
+        fileInput.files = files;
+        fileNameDisplay.textContent = files[0].name;
+      }
+    });
+
+    // Dosya seçildiğinde (butonla)
+    fileInput.addEventListener('change', () => {
+      if (fileInput.files.length > 0) {
+        fileNameDisplay.textContent = fileInput.files[0].name;
+      }
+    });
+  </script>
+
+  <script>
+    // Toggle sidebar aç/kapat
+    const menuToggle = document.getElementById("menuToggle");
+    const mobileSidebar = document.getElementById("mobileSidebar");
+    menuToggle.addEventListener("click", () => {
+      mobileSidebar.classList.toggle("-translate-x-full");
+      mobileSidebar.classList.toggle("translate-x-0");
+    });
+
+    // Toggle Projects submenu
+    const toggleProjects = document.getElementById("toggleProjects");
+    const projectsSubmenu = document.getElementById("projectsSubmenu");
+    const projectsArrow = document.getElementById("projectsArrow");
+
+    toggleProjects.addEventListener("click", () => {
+      projectsSubmenu.classList.toggle("hidden");
+      projectsArrow.classList.toggle("rotate-180");
+    });
+  </script>
+
+  
+<script>
+  const languageSelectors = document.querySelectorAll(".languageSelector");
+
+  async function applyLanguage(lang) {
+    const [careerRes, headerRes, footerRes] = await Promise.all([
+        fetch("../public/careerlang.json"),
+        fetch("../public/headerlang.json"),
+        fetch("../public/footerlang.json")
+      ]);
+
+      const careerData = await careerRes.json();
+      const headerData = await headerRes.json();
+      const footerData = await footerRes.json();
+
+      const careerTexts = careerData[lang];
+      const headerTexts = headerData[lang];
+      const footerTexts = footerData[lang];
+
+      // content
+      document.querySelectorAll("[data-key]").forEach(el => {
+        const key = el.getAttribute("data-key");
+        if (careerTexts[key]) el.textContent = careerTexts[key];
+      });
+
+      // header
+      document.querySelectorAll("[data-header-key]").forEach(el => {
+        const key = el.getAttribute("data-header-key");
+        if (headerTexts[key]) el.textContent = headerTexts[key];
+      });
+
+      // footer
+      document.querySelectorAll("[data-footer-key]").forEach(el => {
+        const key = el.getAttribute("data-footer-key");
+        if (footerTexts[key]) el.textContent = footerTexts[key];
+      });
+
+    // her iki select için de value setle
+    languageSelectors.forEach(sel => sel.value = lang);
+
+    localStorage.setItem("lang", lang);
+  }
+
+  // tüm selector'lara event listener bağla
+  languageSelectors.forEach(selector => {
+    selector.addEventListener("change", e => {
+      const lang = e.target.value;
+      applyLanguage(lang);
+    });
+  });
+
+  // sayfa yüklendiğinde varsayılan dili uygula
+  window.addEventListener("DOMContentLoaded", () => {
+    const savedLang = localStorage.getItem("lang") || "en";
+    applyLanguage(savedLang);
+  });
+</script>
+
+
+
+
+</body>
+
+</html>

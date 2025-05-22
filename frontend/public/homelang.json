@@ -1,0 +1,77 @@
+{
+    "en": {
+        "referencesTitle": "References",
+        "brandName1": "Proton Otomasyon",
+        "brandName2": "Megadyne",
+        "brandName3": "TÜBİTAK",
+        "brandName4": "Another Brand",
+        "welcome": "Welcome to Hites",
+        "energyTitle": "Energy",
+        "energyDesc": "To contribute added value to the energy sector, we develop embedded system applications that enhance efficiency and offer sustainable solutions. We provide R&D services in areas such as IoT-enabled sensor networks and energy management software. Our goal is to develop smart technologies that enable more efficient use of energy resources while reducing the carbon footprint.",
+        "medicalTitle": "Medical",
+        "medicalDesc": "We develop innovative and ergonomic solutions in healthcare technologies. Our R&D projects focus on embedded software design, GUI (Graphical User Interface) development, mechanical design, and hardware design for medical devices. Our primary goal is to develop technologies that meet clinical needs and prioritize patient safety.",
+        "aiTitle": "Data Analysis",
+        "aiDesc": "When properly analyzed, data becomes an incredibly valuable resource. We develop data analytics solutions that help make strategic decisions by interpreting large datasets for energy, medical, and industrial applications. From sensor data to clinical records, from user interface interactions to device performance logs, we process data from diverse sources to enable predictive analysis, anomaly detection, and performance optimization."
+    },
+    "tr": {
+        "referencesTitle": "Referanslar",
+        "brandName1": "Proton Otomasyon",
+        "brandName2": "Megadyne",
+        "brandName3": "TÜBİTAK",
+        "brandName4": "Diğer Marka",
+        "welcome": "Hites'e Hoş Geldiniz",
+        "energyTitle": "Enerji",
+        "energyDesc": "Enerji sektörüne katma değer sağlamak amacıyla, verimliliği artıran ve sürdürülebilir çözümler sunan gömülü sistem uygulamaları geliştiriyoruz. IoT destekli sensör ağları ve enerji yönetim yazılımları gibi alanlarda Ar-Ge hizmeti veriyoruz. Amacımız, enerji kaynaklarının daha verimli kullanılmasını sağlayan ve karbon ayak izini azaltan akıllı teknolojiler geliştirmektir.",
+        "medicalTitle": "Medikal",
+        "medicalDesc": "Sağlık teknolojilerinde yenilikçi ve ergonomik çözümler geliştiriyoruz. Ar-Ge projelerimiz, medikal cihazlar için gömülü yazılım tasarımı, arayüz geliştirme, mekanik tasarım ve donanım geliştirme üzerine yoğunlaşmaktadır. Öncelikli hedefimiz, klinik ihtiyaçları karşılayan ve hasta güvenliğini ön planda tutan teknolojiler üretmektir.",
+        "aiTitle": "Veri Analizi",
+        "aiDesc": "Veri doğru analiz edildiğinde son derece değerli bir kaynağa dönüşür. Enerji, medikal ve endüstriyel uygulamalar için büyük veri kümelerini yorumlayarak stratejik kararlar almayı kolaylaştıran veri analitiği çözümleri geliştiriyoruz. Sensör verilerinden klinik kayıtlara, kullanıcı arayüzü etkileşimlerinden cihaz performansına kadar çeşitli kaynaklardan gelen verileri işleyerek kestirimci analiz, anomali tespiti ve performans iyileştirmesi sağlıyoruz."
+    },
+    "de": {
+        "referencesTitle": "Referenzen",
+        "brandName1": "Proton Automation",
+        "brandName2": "Megadyne",
+        "brandName3": "TÜBİTAK",
+        "brandName4": "Andere Marke",
+        "welcome": "Willkommen bei Hites",
+        "energyTitle": "Energie",
+        "energyDesc": "Zur Wertschöpfung im Energiesektor entwickeln wir eingebettete Systemanwendungen, die Effizienz steigern und nachhaltige Lösungen bieten. Wir bieten F&E-Dienstleistungen in Bereichen wie IoT-fähigen Sensornetzwerken und Energiemanagement-Software. Unser Ziel ist es, intelligente Technologien zu entwickeln, die eine effizientere Nutzung von Energiequellen ermöglichen und gleichzeitig den CO₂-Fußabdruck reduzieren.",
+        "medicalTitle": "Medizin",
+        "medicalDesc": "Wir entwickeln innovative und ergonomische Lösungen in der Medizintechnik. Unsere F&E-Projekte konzentrieren sich auf Embedded-Softwaredesign, GUI-Entwicklung, mechanisches Design und Hardwaredesign für medizinische Geräte. Unser Hauptziel ist es, Technologien zu entwickeln, die klinische Anforderungen erfüllen und die Patientensicherheit priorisieren.",
+        "aiTitle": "Datenanalyse",
+        "aiDesc": "Richtig analysiert wird Daten zu einer äußerst wertvollen Ressource. Wir entwickeln Datenanalysetools, die strategische Entscheidungen durch die Auswertung großer Datenmengen im Energie-, Medizin- und Industriesektor unterstützen. Von Sensordaten über Klinikdaten bis hin zu Geräteprotokollen ermöglichen wir prädiktive Analysen und Leistungsoptimierung."
+    },
+    "es": {
+        "referencesTitle": "Referencias",
+        "brandName1": "Proton Automatización",
+        "brandName2": "Megadyne",
+        "brandName3": "TÜBİTAK",
+        "brandName4": "Otra Marca",
+        "welcome": "Bienvenido a hites",
+        "energyTitle": "Energía",
+        "energyDesc": "Para aportar valor al sector energético, desarrollamos sistemas embebidos que mejoran la eficiencia y ofrecen soluciones sostenibles. Ofrecemos servicios de I+D en redes de sensores habilitadas para IoT y software de gestión energética. Nuestro objetivo es crear tecnologías inteligentes que optimicen el uso de los recursos energéticos y reduzcan la huella de carbono.",
+        "medicalTitle": "Médico",
+        "medicalDesc": "Desarrollamos soluciones innovadoras y ergonómicas en tecnologías sanitarias. Nuestros proyectos de I+D se centran en software embebido, interfaces gráficas, diseño mecánico y desarrollo de hardware para dispositivos médicos. Nuestro objetivo principal es crear tecnologías que cumplan con las necesidades clínicas y prioricen la seguridad del paciente.",
+        "aiTitle": "Análisis de Datos",
+        "aiDesc": "Cuando se analiza correctamente, los datos se convierten en un recurso extremadamente valioso. Creamos soluciones de análisis de datos para ayudar a tomar decisiones estratégicas mediante la interpretación de grandes conjuntos de datos en los campos de la energía, la medicina y la industria."
+    },
+    "it": {
+        "referencesTitle": "Riferimenti",
+        "brandName1": "Proton Automazione",
+        "brandName2": "Megadyne",
+        "brandName3": "TÜBİTAK",
+        "brandName4": "Altro Marchio",
+        "welcome": "Benvenuto in Hites",
+        "energyTitle": "Energia",
+        "energyDesc": "Per contribuire al settore energetico, sviluppiamo sistemi embedded che migliorano l'efficienza e offrono soluzioni sostenibili. Offriamo servizi di R&S in reti di sensori IoT e software di gestione dell'energia. Il nostro obiettivo è creare tecnologie intelligenti per un uso più efficiente delle risorse energetiche.",
+        "medicalTitle": "Medico",
+        "medicalDesc": "Sviluppiamo soluzioni innovative ed ergonomiche in tecnologie sanitarie. I nostri progetti si concentrano su software embedded, interfacce grafiche, design meccanico e hardware per dispositivi medici. Puntiamo a tecnologie che soddisfano le esigenze cliniche e garantiscono la sicurezza del paziente.",
+        "aiTitle": "Analisi Dati",
+        "aiDesc": "I dati, se analizzati correttamente, diventano una risorsa preziosa. Creiamo soluzioni di analisi dei dati che supportano decisioni strategiche interpretando grandi quantità di informazioni in ambito energetico, medico e industriale."
+    }
+}
+  
+
+
+
+

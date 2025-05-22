@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hites Ar-Ge</title>
+  <link href="output.css" rel="stylesheet" />
+
+  <!--
+    SwiperJS © Vladimir Kharlampidi, licensed under the MIT License.
+    Source: https://swiperjs.com
+    -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+</head>
+
+<body class="bg-gray-100 text-gray-800 font-sans min-h-screen flex flex-col">
+  <!-- Header -->
+  <header
+    class="bg-gradient-to-r from-gray-800 to-gray-600 text-white px-6 py-4 flex items-center justify-between md:justify-start relative z-50">
+    <!-- Logo (hem mobil hem desktop) -->
+    <a href="index.html" class="z-50">
+      <img src="../assets/hites_logo.png" alt="Hites Logo" class="h-12 md:h-20" />
+    </a>
+
+    <!-- Hamburger menu (mobilde görünür) -->
+    <button id="menuToggle" class="md:hidden focus:outline-none z-50">
+      <svg class="w-8 h-8" fill="none" stroke="white" stroke-width="2" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+      </svg>
+    </button>
+
+    <!-- Masaüstü navigation -->
+    <nav class="hidden md:flex space-x-8 text-lg font-medium ml-auto items-center">
+      <a href="index.html" class="hover:underline" data-header-key="navHome">Home</a>
+      <a href="about.html" class="hover:underline" data-header-key="navAbout">About Us</a>
+      <div class="relative group">
+        <button class="hover:underline" data-header-key="navProjects">Projects</button>
+        <div class="absolute top-full left-0 z-50 pt-2 hidden group-hover:block">
+          <ul
+            class="bg-gradient-to-r from-gray-800 to-gray-600 border border-gray-500 rounded-md shadow-md text-white min-w-[180px] text-base">
+            <li><a href="energy.html" class="block px-4 py-2 hover:bg-gray-700" data-header-key="navEnergy">Energy</a>
+            </li>
+            <li><a href="medical.html" class="block px-4 py-2 hover:bg-gray-700"
+                data-header-key="navMedical">Medical</a></li>
+            <li><a href="ai_embedded.html" class="block px-4 py-2 hover:bg-gray-700" data-header-key="navAI">Data
+                Analysis</a></li>
+          </ul>
+        </div>
+      </div>
+      <a href="references.html" class="hover:underline" data-header-key="navReferences">References</a>
+      <a href="contact.html" class="hover:underline" data-header-key="navContact">Contact</a>
+      <a href="career.html" class="hover:underline" data-header-key="navCareer">Career</a>
+
+      <div class="ml-auto relative">
+        <select id="languageSelector" class="languageSelector bg-gray-700 text-white px-3 py-2 rounded">
+          <option value="tr">🇹🇷 Türkçe</option>
+          <option value="en">🇬🇧 English</option>
+          <option value="de">🇩🇪 Deutsch</option>
+          <option value="es">🇪🇸 Español</option>
+          <option value="it">🇮🇹 Italiano</option>
+        </select>
+      </div>
+    </nav>
+  </header>
+  <!-- Mobile Sidebar -->
+
+  <div id="mobileSidebar"
+    class="fixed top-0 left-0 h-full w-64 bg-gray-800 text-white transform -translate-x-full transition-transform duration-300 ease-in-out z-40 md:hidden">
+
+    <!-- Logo -->
+    <div class="p-4 border-b border-gray-600">
+      <a href="index.html">
+        <img src="../assets/hites_logo.png" alt="Hites Logo" class="h-12 mx-auto" />
+      </a>
+    </div>
+
+    <!-- Menü -->
+    <ul class="p-6 space-y-4 text-lg font-medium">
+
+      <li><a href="index.html" class="block hover:underline">Home</a></li>
+      <li><a href="about.html" class="block hover:underline" data-header-key="navAbout">About Us</a></li>
+
+      <!-- Projects (açılır menü) -->
+      <li>
+        <button id="toggleProjects" class="flex justify-between items-center w-full hover:underline"
+          data-header-key="navProjects">
+          Projects
+          <svg id="projectsArrow" class="w-4 h-4 ml-2 transform transition-transform" fill="none" stroke="white"
+            stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+          </svg>
+        </button>
+        <ul id="projectsSubmenu" class="pl-4 mt-2 space-y-2 hidden">
+          <li><a href="energy.html" class="block hover:underline" data-header-key="navEnergy">Energy</a></li>
+          <li><a href="medical.html" class="block hover:underline" data-header-key="navMedical">Medical</a></li>
+          <li><a href="ai_embedded.html" class="block hover:underline" data-header-key="navAI">Data Analysis</a></li>
+        </ul>
+      </li>
+
+      <li><a href="references.html" class="block hover:underline" data-header-key="navReferences">References</a></li>
+      <li><a href="contact.html" class="block hover:underline" data-header-key="navContact">Contact</a></li>
+      <li><a href="career.html" class="block hover:underline" data-header-key="navCareer">Career</a></li>
+
+      <div class="ml-auto relative">
+        <select id="languageSelector" class="languageSelector bg-gray-700 text-white px-3 py-2 rounded">
+          <option value="tr">🇹🇷 Türkçe</option>
+          <option value="en">🇬🇧 English</option>
+          <option value="de">🇩🇪 Deutsch</option>
+          <option value="es">🇪🇸 Español</option>
+          <option value="it">🇮🇹 Italiano</option>
+        </select>
+      </div>
+    </ul>
+  </div>
+
+  <!-- Mobile Sidebar -->
+
+  <div id="mobileSidebar"
+    class="fixed top-0 left-0 h-full w-64 bg-gray-800 text-white transform -translate-x-full transition-transform duration-300 ease-in-out z-40 md:hidden">
+
+    <!-- Logo -->
+    <div class="p-4 border-b border-gray-600">
+      <a href="index.html">
+        <img src="../assets/hites_logo.png" alt="Hites Logo" class="h-12 mx-auto" />
+      </a>
+    </div>
+
+    <!-- Menü -->
+    <ul class="p-6 space-y-4 text-lg font-medium">
+
+      <li><a href="index.html" class="block hover:underline">Home</a></li>
+      <li><a href="about.html" class="block hover:underline">About Us</a></li>
+
+      <!-- Projects (açılır menü) -->
+      <li>
+        <button id="toggleProjects" class="flex justify-between items-center w-full hover:underline">
+          Projects
+          <svg id="projectsArrow" class="w-4 h-4 ml-2 transform transition-transform" fill="none" stroke="white"
+            stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+          </svg>
+        </button>
+        <ul id="projectsSubmenu" class="pl-4 mt-2 space-y-2 hidden">
+          <li><a href="energy.html" class="block hover:underline">Energy</a></li>
+          <li><a href="medical.html" class="block hover:underline">Medical</a></li>
+          <li><a href="ai_embedded.html" class="block hover:underline">Data Analysis</a></li>
+        </ul>
+      </li>
+
+      <li><a href="references.html" class="block hover:underline">References</a></li>
+      <li><a href="contact.html" class="block hover:underline">Contact</a></li>
+      <li><a href="career.html" class="block hover:underline">Career</a></li>
+    </ul>
+  </div>
+
+
+
+
+
+
+
+  <!-- Projects Section -->
+  <section class="bg-white text-black py-16 px-6">
+    <div class="max-w-6xl mx-auto">
+
+      <!-- Başlık -->
+      <h2 class="text-4xl font-extrabold text-left mb-10 pl-4 md:pl-0">
+        <span data-key="welcome">Welcome to</span>
+
+      </h2>
+
+      <!-- Swiper Container -->
+      <div class="swiper mySwiper relative">
+
+        <!-- Slides -->
+        <div class="swiper-wrapper">
+          <!-- Slide 1 -->
+          <div class="swiper-slide relative group">
+            <a href="energy.html">
+              <img src="../assets/energy.jpg" class="w-full h-[400px] object-cover rounded-xl" alt="Energy" />
+              <div
+                class="absolute bottom-0 left-0 w-full bg-gradient-to-t from-black/70 to-transparent text-white p-4 text-xl font-semibold"
+                data-key="energyTitle">
+                Energy
+              </div>
+              <div
+                class="absolute inset-0 bg-black/70 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-6 text-center text-lg rounded-xl"
+                data-key="energyDesc">
+                To contribute added value to the energy sector, we develop embedded system applications...
+              </div>
+            </a>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="swiper-slide relative group">
+            <a href="medical.html">
+              <img src="../assets/medical.jpg" class="w-full h-[400px] object-cover rounded-xl" alt="Medical" />
+              <div
+                class="absolute bottom-0 left-0 w-full bg-gradient-to-t from-black/70 to-transparent text-white p-4 text-xl font-semibold"
+                data-key="medicalTitle">
+                Medical
+              </div>
+              <div
+                class="absolute inset-0 bg-black/70 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-6 text-center text-lg rounded-xl"
+                data-key="medicalDesc">
+                We develop innovative and ergonomic solutions in healthcare technologies...
+              </div>
+            </a>
+          </div>
+
+          <!-- Slide 3 -->
+          <div class="swiper-slide relative group">
+            <a href="ai_embedded.html">
+              <img src="../assets/data_analysis.jpg" class="w-full h-[400px] object-cover rounded-xl"
+                alt="Data Analysis" />
+              <div
+                class="absolute bottom-0 left-0 w-full bg-gradient-to-t from-black/70 to-transparent text-white p-4 text-xl font-semibold"
+                data-key="aiTitle">
+                Data Analysis
+              </div>
+              <div
+                class="absolute inset-0 bg-black/70 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-6 text-center text-lg rounded-xl"
+                data-key="aiDesc">
+                When properly analyzed, data becomes an incredibly valuable resource...
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <!-- Oklar -->
+        <div
+          class="swiper-button-prev absolute z-10 w-14 h-14 bg-white bg-opacity-90 rounded-full shadow-md flex items-center justify-center hover:scale-110 transition-transform duration-300">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" class="w-7 h-7">
+            <path d="M15 6l-6 6 6 6" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+        </div>
+
+        <div
+          class="swiper-button-next absolute z-10 w-14 h-14 bg-white bg-opacity-90 rounded-full shadow-md flex items-center justify-center hover:scale-110 transition-transform duration-300">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" class="w-7 h-7">
+            <path d="M9 6l6 6-6 6" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+        </div>
+      </div>
+
+      <!-- Oklar için konum ayarı -->
+      <style>
+        .swiper-button-prev,
+        .swiper-button-next {
+          top: 50% !important;
+          transform: translateY(-50%) !important;
+        }
+
+        .swiper-button-prev {
+          left: 1rem !important;
+        }
+
+        .swiper-button-next {
+          right: 1rem !important;
+        }
+
+        .swiper-button-prev::after,
+        .swiper-button-next::after {
+          display: none !important;
+        }
+      </style>
+    </div>
+  </section>
+
+
+  <!-- References Section -->
+  <section class="bg-gray-100 text-black py-16 px-6">
+    <div class="max-w-6xl mx-auto text-left mb-12">
+      <h2 class="text-3xl font-bold" data-key="referencesTitle">References</h2>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-12 max-w-6xl mx-auto">
+      <!-- Reference 1 -->
+      <div class="text-center">
+        <img src="../assets/reference.webp" alt="Proton Otomasyon" class="mx-auto h-16 mb-4" />
+        <p class="text-lg" data-key="brandName1">Proton Otomasyon</p>
+      </div>
+      <!-- Reference 2 -->
+      <div class="text-center">
+        <img src="../assets/reference.webp" alt="Megadyne" class="mx-auto h-16 mb-4" />
+        <p class="text-lg" data-key="brandName2">Megadyne</p>
+      </div>
+      <!-- Reference 3 -->
+      <div class="text-center">
+        <img src="../assets/reference.webp" alt="TÜBİTAK" class="mx-auto h-16 mb-4" />
+        <p class="text-lg" data-key="brandName3">TÜBİTAK</p>
+      </div>
+      <!-- Reference 4 -->
+      <div class="text-center">
+        <img src="../assets/reference.webp" alt="Another Brand" class="mx-auto h-16 mb-4" />
+        <p class="text-lg" data-key="brandName4">Another Brand</p>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- Footer -->
+  <footer class="bg-gradient-to-r from-gray-800 to-gray-600 text-center py-4 text-sm text-white">
+    <span data-footer-key="footerText">&copy; 2025 Hites Ar-Ge. All rights reserved.</span>
+  </footer>
+  
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- JS Başlatma -->
+  <script>
+    const swiper = new Swiper(".mySwiper", {
+      loop: true,
+      autoplay: {
+        delay: 5000, // 5 saniye
+        disableOnInteraction: false, // kullanıcı tıklasa bile autoplay devam etsin
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev"
+      },
+      slidesPerView: 1,
+      spaceBetween: 30,
+      centeredSlides: true,
+      breakpoints: {
+        768: {
+          slidesPerView: 1
+        },
+        1024: {
+          slidesPerView: 1
+        }
+      }
+    });
+  </script>
+
+  <script>
+    // Toggle sidebar aç/kapat
+    const menuToggle = document.getElementById("menuToggle");
+    const mobileSidebar = document.getElementById("mobileSidebar");
+    menuToggle.addEventListener("click", () => {
+      mobileSidebar.classList.toggle("-translate-x-full");
+      mobileSidebar.classList.toggle("translate-x-0");
+    });
+
+    // Toggle Projects submenu
+    const toggleProjects = document.getElementById("toggleProjects");
+    const projectsSubmenu = document.getElementById("projectsSubmenu");
+    const projectsArrow = document.getElementById("projectsArrow");
+
+    toggleProjects.addEventListener("click", () => {
+      projectsSubmenu.classList.toggle("hidden");
+      projectsArrow.classList.toggle("rotate-180");
+    });
+  </script>
+
+
+  <script>
+    const languageSelectors = document.querySelectorAll(".languageSelector");
+
+    async function applyLanguage(lang) {
+      const [careerRes, headerRes, footerRes] = await Promise.all([
+        fetch("../public/homelang.json"),
+        fetch("../public/headerlang.json"),
+        fetch("../public/footerlang.json")
+      ]);
+
+      const careerData = await careerRes.json();
+      const headerData = await headerRes.json();
+      const footerData = await footerRes.json();
+
+      const careerTexts = careerData[lang];
+      const headerTexts = headerData[lang];
+      const footerTexts = footerData[lang];
+
+      // content
+      document.querySelectorAll("[data-key]").forEach(el => {
+        const key = el.getAttribute("data-key");
+        if (careerTexts[key]) el.textContent = careerTexts[key];
+      });
+
+      // header
+      document.querySelectorAll("[data-header-key]").forEach(el => {
+        const key = el.getAttribute("data-header-key");
+        if (headerTexts[key]) el.textContent = headerTexts[key];
+      });
+
+      // footer
+      document.querySelectorAll("[data-footer-key]").forEach(el => {
+        const key = el.getAttribute("data-footer-key");
+        if (footerTexts[key]) el.textContent = footerTexts[key];
+      });
+
+      // her iki select için de value setle
+      languageSelectors.forEach(sel => sel.value = lang);
+
+      localStorage.setItem("lang", lang);
+    }
+
+    // tüm selector'lara event listener bağla
+    languageSelectors.forEach(selector => {
+      selector.addEventListener("change", e => {
+        const lang = e.target.value;
+        applyLanguage(lang);
+      });
+    });
+
+    // sayfa yüklendiğinde varsayılan dili uygula
+    window.addEventListener("DOMContentLoaded", () => {
+      const savedLang = localStorage.getItem("lang") || "en";
+      applyLanguage(savedLang);
+    });
+  </script>
+
+
+</body>
+
+</html>

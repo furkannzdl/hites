@@ -1,0 +1,23 @@
+{
+    "en": {
+      "medicalTitle": "Medical",
+      "medicalContent": "We develop innovative and ergonomic solutions in healthcare technologies. Our R&D projects focus on embedded software design, GUI (Graphical User Interface) development, mechanical design, and hardware design for medical devices. Our primary goal is to develop technologies that meet clinical needs and prioritize patient safety."
+    },
+    "tr": {
+      "medicalTitle": "Medikal",
+      "medicalContent": "Sağlık teknolojileri alanında yenilikçi ve ergonomik çözümler geliştiriyoruz. Ar-Ge projelerimiz, gömülü yazılım tasarımı, grafiksel kullanıcı arayüzü (GUI) geliştirme, mekanik tasarım ve tıbbi cihazlar için donanım tasarımı üzerine odaklanmaktadır. Temel amacımız, klinik ihtiyaçları karşılayan ve hasta güvenliğini önceliklendiren teknolojiler geliştirmektir."
+    },
+    "de": {
+      "medicalTitle": "Medizinisch",
+      "medicalContent": "Wir entwickeln innovative und ergonomische Lösungen im Bereich der Gesundheitstechnologien. Unsere F&E-Projekte konzentrieren sich auf Embedded-Softwaredesign, GUI-Entwicklung, mechanisches Design und Hardwaredesign für medizinische Geräte. Unser Hauptziel ist die Entwicklung von Technologien, die den klinischen Anforderungen gerecht werden und die Patientensicherheit priorisieren."
+    },
+    "es": {
+      "medicalTitle": "Médico",
+      "medicalContent": "Desarrollamos soluciones innovadoras y ergonómicas en tecnologías de salud. Nuestros proyectos de I+D se centran en el diseño de software embebido, desarrollo de interfaces gráficas de usuario (GUI), diseño mecánico y diseño de hardware para dispositivos médicos. Nuestro principal objetivo es desarrollar tecnologías que satisfagan las necesidades clínicas y prioricen la seguridad del paciente."
+    },
+    "it": {
+      "medicalTitle": "Medico",
+      "medicalContent": "Sviluppiamo soluzioni innovative ed ergonomiche nelle tecnologie sanitarie. I nostri progetti di R&S si concentrano sul design del software embedded, sviluppo di GUI, progettazione meccanica e progettazione hardware per dispositivi medici. Il nostro obiettivo principale è sviluppare tecnologie che soddisfino le esigenze cliniche e diano priorità alla sicurezza del paziente."
+    }
+  }
+  

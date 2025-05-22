@@ -1,0 +1,58 @@
+{
+    "en": {
+      "contactInfoTitle": "Contact Information",
+      "contactEmail": "info@hites.com.tr",
+      "contactLinkedin": "LinkedIn",
+      "contactPhoneLabel": "Phone:",
+      "contactPhone": "0(232) 683 24 44",
+      "contactAddressLabel": "Address:",
+      "contactAddress1": "Halkapınar Mah. Megapol Çarşı Kule 1203/11 Sk.",
+      "contactAddress2": "No:5-7 Apt:96 Konak / Izmir",
+      "contactMapBtn": "Open in Google Maps"
+    },
+    "tr": {
+      "contactInfoTitle": "İletişim Bilgileri",
+      "contactEmail": "info@hites.com.tr",
+      "contactLinkedin": "LinkedIn",
+      "contactPhoneLabel": "Telefon:",
+      "contactPhone": "0(232) 683 24 44",
+      "contactAddressLabel": "Adres:",
+      "contactAddress1": "Halkapınar Mah. Megapol Çarşı Kule 1203/11 Sk.",
+      "contactAddress2": "No:5-7 Daire:96 Konak / İzmir",
+      "contactMapBtn": "Google Maps'te Aç"
+    },
+    "de": {
+      "contactInfoTitle": "Kontaktinformationen",
+      "contactEmail": "info@hites.com.tr",
+      "contactLinkedin": "LinkedIn",
+      "contactPhoneLabel": "Telefon:",
+      "contactPhone": "0(232) 683 24 44",
+      "contactAddressLabel": "Adresse:",
+      "contactAddress1": "Halkapınar Mah. Megapol Çarşı Kule 1203/11 Str.",
+      "contactAddress2": "Nr:5-7 Wohnung:96 Konak / Izmir",
+      "contactMapBtn": "In Google Maps öffnen"
+    },
+    "es": {
+      "contactInfoTitle": "Información de Contacto",
+      "contactEmail": "info@hites.com.tr",
+      "contactLinkedin": "LinkedIn",
+      "contactPhoneLabel": "Teléfono:",
+      "contactPhone": "0(232) 683 24 44",
+      "contactAddressLabel": "Dirección:",
+      "contactAddress1": "Halkapınar Mah. Megapol Çarşı Kule 1203/11 Sk.",
+      "contactAddress2": "N.º 5-7 Apt:96 Konak / Izmir",
+      "contactMapBtn": "Abrir en Google Maps"
+    },
+    "it": {
+      "contactInfoTitle": "Informazioni di Contatto",
+      "contactEmail": "info@hites.com.tr",
+      "contactLinkedin": "LinkedIn",
+      "contactPhoneLabel": "Telefono:",
+      "contactPhone": "0(232) 683 24 44",
+      "contactAddressLabel": "Indirizzo:",
+      "contactAddress1": "Halkapınar Mah. Megapol Çarşı Kule 1203/11 Str.",
+      "contactAddress2": "N. 5-7 App:96 Konak / Izmir",
+      "contactMapBtn": "Apri su Google Maps"
+    }
+  }
+  
